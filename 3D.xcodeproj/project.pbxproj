@@ -20,6 +20,7 @@
 		188D69C220ABF74200AA6A30 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D69C020ABF74200AA6A30 /* MineViewController.m */; };
 		188D69C920ABF84B00AA6A30 /* AppDelegate+XKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D69C820ABF84B00AA6A30 /* AppDelegate+XKCategory.m */; };
 		188D69CC20ABFABA00AA6A30 /* UITableView+AdapteriOS11.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D69CB20ABFABA00AA6A30 /* UITableView+AdapteriOS11.m */; };
+		188D69CF20AC0B9100AA6A30 /* api.plist in Resources */ = {isa = PBXBuildFile; fileRef = 188D69CE20AC0B9100AA6A30 /* api.plist */; };
 		FB4F6E5EE0D291FA49C35E6F /* libPods-3D.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2368C5CFA99D09313FF8478 /* libPods-3D.a */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +73,7 @@
 		188D69CA20ABFABA00AA6A30 /* UITableView+AdapteriOS11.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+AdapteriOS11.h"; sourceTree = "<group>"; };
 		188D69CB20ABFABA00AA6A30 /* UITableView+AdapteriOS11.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+AdapteriOS11.m"; sourceTree = "<group>"; };
 		188D69CD20ABFE9F00AA6A30 /* DefineCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefineCommon.h; sourceTree = "<group>"; };
+		188D69CE20AC0B9100AA6A30 /* api.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = api.plist; sourceTree = "<group>"; };
 		798855DB4C3D4AC629A8A5FD /* Pods-3D.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3D.debug.xcconfig"; path = "Pods/Target Support Files/Pods-3D/Pods-3D.debug.xcconfig"; sourceTree = "<group>"; };
 		D2368C5CFA99D09313FF8478 /* libPods-3D.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-3D.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCDE7B0EA8B1B966A471BF4F /* Pods-3D.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3D.release.xcconfig"; path = "Pods/Target Support Files/Pods-3D/Pods-3D.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,13 +134,7 @@
 				188D699F20ABF62C00AA6A30 /* Vender */,
 				188D699C20ABF62600AA6A30 /* Resources */,
 				188D699B20ABF61C00AA6A30 /* Supporting Files */,
-				188D695720ABD42500AA6A30 /* AppDelegate.h */,
-				188D695820ABD42500AA6A30 /* AppDelegate.m */,
-				188D695D20ABD42500AA6A30 /* Main.storyboard */,
-				188D696020ABD42500AA6A30 /* Assets.xcassets */,
-				188D696220ABD42500AA6A30 /* LaunchScreen.storyboard */,
 				188D696520ABD42500AA6A30 /* Info.plist */,
-				188D696620ABD42500AA6A30 /* main.m */,
 			);
 			path = 3D;
 			sourceTree = "<group>";
@@ -164,6 +160,12 @@
 		188D699B20ABF61C00AA6A30 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				188D695720ABD42500AA6A30 /* AppDelegate.h */,
+				188D695820ABD42500AA6A30 /* AppDelegate.m */,
+				188D695D20ABD42500AA6A30 /* Main.storyboard */,
+				188D696020ABD42500AA6A30 /* Assets.xcassets */,
+				188D696220ABD42500AA6A30 /* LaunchScreen.storyboard */,
+				188D696620ABD42500AA6A30 /* main.m */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -180,6 +182,7 @@
 		188D699D20ABF62600AA6A30 /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				188D69CE20AC0B9100AA6A30 /* api.plist */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -525,6 +528,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				188D696420ABD42500AA6A30 /* LaunchScreen.storyboard in Resources */,
+				188D69CF20AC0B9100AA6A30 /* api.plist in Resources */,
 				188D696120ABD42500AA6A30 /* Assets.xcassets in Resources */,
 				188D695F20ABD42500AA6A30 /* Main.storyboard in Resources */,
 			);

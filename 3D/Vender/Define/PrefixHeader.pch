@@ -1,0 +1,37 @@
+//
+//  PrefixHeader.pch
+//  3D
+//
+//  Created by xiaokang on 2018/5/16.
+//  Copyright © 2018年 ZC. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//  系统库
+
+//  第三方文件
+#import <GKNavigationBarViewController/GKNavigationBarViewController.h>
+
+//  自定义头文件
+#import "DefineMacro.h"
+#import "DefineTheme.h"
+#import "DefineAccount.h"
+#import "DefineCommon.h"
+//  分类文件
+
+//  自定义工具类文件
+
+
+
+#if DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__)
+#define debugMethod() NSLog(@"%s",__func__)、
+#else
+#define NSLog(...)
+#define debugMethod()
+#endif
+
+
+#endif /* PrefixHeader_pch */

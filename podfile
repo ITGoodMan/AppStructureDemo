@@ -1,0 +1,4 @@
+platform:ios,'8.0'
+target '3D'do
+pod "GKNavigationBarViewController"
+end
